@@ -1,4 +1,5 @@
 # my-trello
+<<<<<<< HEAD
 
 ## Project setup
 ```
@@ -22,3 +23,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+vue.js / vuex
+>>>>>>> origin/master
