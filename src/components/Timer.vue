@@ -70,7 +70,7 @@ export default {
 <style scoped>
 #timer {
   position: absolute;
-  right: 20px;
+  right: 10px;
   top: 15px;
 }
 .time {
