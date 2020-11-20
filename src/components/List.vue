@@ -21,12 +21,11 @@
 
 <style scoped>
 .list {
-  margin: 0 5px auto;
+  margin-right:15px;
   position: relative;
   display: inline-block;
   flex-direction: column;
   align-items: flex-start;
-  min-width: 290px;
   width: 290px;
   background-color: #e0e0e0;
   border-radius: 8px;
@@ -47,7 +46,7 @@
 }
 .list-counter {
   color: rgb(0, 140, 255);
-  padding: 15px;
+  padding-top: 20px;
 }
 .deletelist {
   position: absolute;

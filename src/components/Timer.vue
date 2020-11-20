@@ -71,7 +71,7 @@ export default {
 #timer {
   position: absolute;
   right: 10px;
-  top: 15px;
+  top: 10px;
 }
 .time {
   font-size: 18px;

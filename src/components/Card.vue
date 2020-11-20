@@ -12,7 +12,6 @@
 
 <style scoped>
 .card {
-  margin-top: 10px;
   margin-bottom: 10px;
   position: relative;
   display: flex;
