@@ -51,3 +51,26 @@ export default {
   }
 }
 </script>
+<style scoped>
+header {
+  background: rgb(0, 195, 255);
+  height: 70px;
+  color: white;
+  font-style: italic;
+  font-size: 40px;
+  text-align: left;
+  padding: 20px;
+}
+
+main {
+  padding: 0 10px;
+  width: calc(100% - 40px);
+  height: 100%;
+}
+
+.info-line {
+  margin: 20px;
+  font-size: 20px;
+  color: white;
+}
+</style>
