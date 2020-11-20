@@ -3,9 +3,9 @@
     <div class="timer">
       <div class="time">
         {{ formatTime }}
-      </div>
-      <button v-on:click="start" v-if="!timerOn">Start</button>
+        <button v-on:click="start" v-if="!timerOn">Start</button>
       <button v-on:click="stop" v-if="timerOn">Stop</button>
+      </div>
     </div>
   </div>
 </template>
@@ -16,7 +16,7 @@ export default {
   name: 'Timer',
   data() {
     return {
-      min: 59,
+      min: 54,
       sec: 59,
       timerOn: false,
       timerObj: null,
@@ -71,12 +71,9 @@ export default {
 #timer {
   position: absolute;
   right: 20px;
-  top: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  top: 15px;
 }
 .time {
-  font-size: 20px;
+  font-size: 18px;
 }
 </style>
