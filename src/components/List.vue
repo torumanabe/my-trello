@@ -35,7 +35,6 @@
   vertical-align: top;
 }
 .listheader {
-  width: 290px;
   display: inline-flex;
   justify-content: space-between;
 }
@@ -50,7 +49,7 @@
 }
 .deletelist {
   position: absolute;
-  top: 6px;
+  top: 1px;
   right: 14px;
   font-size: 28px;
 }

@@ -28,11 +28,9 @@
   font-size: 20px;
   cursor: pointer;
   border-radius: 8px;
-  border-color: red;
-  border-style: solid;
   background-color: red;
   color: white;
-  margin: 5px;
+  width: 25px;
 }
 .body {
   font-size: 18px;
